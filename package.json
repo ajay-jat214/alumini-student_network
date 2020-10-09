@@ -1,0 +1,19 @@
+{
+  "name": "alumini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajay-jat214/alumini-student_network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajay-jat214/alumini-student_network/issues"
+  },
+  "homepage": "https://github.com/ajay-jat214/alumini-student_network#readme"
+}
