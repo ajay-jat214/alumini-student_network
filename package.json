@@ -1,19 +1,25 @@
 {
-  "name": "alumini",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ajay-jat214/alumini-student_network.git"
+    "start": "nodemon server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix smart_goals && npm run build --prefix smart_goals"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ajay-jat214/alumini-student_network/issues"
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "react-bootstrap": "^1.4.3",
+    "socket.io": "^2.3.0"
   },
-  "homepage": "https://github.com/ajay-jat214/alumini-student_network#readme"
+  "devDependencies": {},
+  "description": ""
 }
